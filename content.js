@@ -49,6 +49,12 @@ function execCommand() {
         case "2":
             speedUp("2.00");
             break;
+        case "22":
+            speedUp("2.25");
+            break;
+        case "25":
+            speedUp("2.50");
+            break;
     }
     clearTimeout(intervals.command);
     delete intervals.command;
